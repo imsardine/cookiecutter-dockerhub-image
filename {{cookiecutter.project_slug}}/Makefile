@@ -12,8 +12,6 @@ uid = $(shell id -u)
 
 define docker_run
 	docker run --rm -it \
-	  --user $(uid) \
-	  --volume $(PWD):/workspace \
 	  $(docker_opts) \
 	  $(docker_image) $(1)
 endef
