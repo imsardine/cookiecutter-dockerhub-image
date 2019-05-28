@@ -4,5 +4,5 @@
   "project_slug": "docker-{{ cookiecutter.subject.lower().replace(' ', '-') }}",
   "docker_username": "imsardine",
   "github_username": "imsardine",
-  "image_name": "{{ cookiecutter.docker_username }}/{{ cookiecutter.project_slug }}"
+  "image_name": "{{ cookiecutter.docker_username }}/{{ cookiecutter.subject.lower().replace(' ', '-') }}"
 }

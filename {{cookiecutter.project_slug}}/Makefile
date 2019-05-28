@@ -6,7 +6,7 @@ DOC_PORT ?= 8000
 
 # Internal Variables
 docker_image = {{ cookiecutter.image_name }}
-mkdocs_image = imsardine/docker-mkdocs
+mkdocs_image = imsardine/mkdocs
 docker_opts =
 uid = $(shell id -u)
 
